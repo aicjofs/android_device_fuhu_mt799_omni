@@ -1,0 +1,33 @@
+#
+# system.prop for junior
+#
+
+#NFC
+debug.nfc.fw_download=false
+debug.nfc.se=false
+
+##ro.sf.lcd_density=160
+ro.sf.lcd_density=186
+
+#support dynamic resolution change property
+ro.streaming.video.drs=true
+
+### NJ5+
+persist.sys.srsenable=0
+persist.sys.srssupported=0
+af.resampler.quality=3
+
+# OS Mode for NJ5
+persist.sys.nabi.mode.default=0
+persist.sys.nabi.mode.current=0
+persist.sys.nabi.install.done=0
+
+#default timezone
+persist.sys.timezone=America/Los_Angeles
+
+#OTA
+persist.sys.ota = 0
+
+#Balanced Power Mode
+persist.sys.NV_FPSLIMIT = 0
+### NJ5-
