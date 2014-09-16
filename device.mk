@@ -6,7 +6,7 @@ DEVICE_PACKAGE_OVERLAYS += device/fuhu/mt799/overlay
 TARGET_SCREEN_HEIGHT := 600
 TARGET_SCREEN_WIDTH := 1024
 
-LOCAL_PATH := device/fuhu/t8400n
+LOCAL_PATH := device/fuhu/mt799
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
 else

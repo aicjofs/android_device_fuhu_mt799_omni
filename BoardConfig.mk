@@ -59,6 +59,6 @@ TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backligh
 BOARD_VOLD_MAX_PARTITIONS := 16
 RECOVERY_SDCARD_ON_DATA := true
 TW_INPUT_BLACKLIST := "accelerometer\x0dmard06\x0lis3dh_acc\x0lis3de_acc"
-
+TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 
